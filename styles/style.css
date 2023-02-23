@@ -1,0 +1,19 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    color: grey;
+    
+}
+
+header {
+    background-color: grey;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
