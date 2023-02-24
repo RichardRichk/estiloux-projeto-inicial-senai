@@ -15,10 +15,9 @@ body {
 /* Configurações genéricas */
 
 div.container-grid{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    background-color: purple;
-}
+    }
 
         /****CABEÇALHO****/
 header {
@@ -28,12 +27,12 @@ header {
 div.header-flex{
     display: flex;
     justify-content: space-between;
+
 }
 
 header h1{
     color: white;
     font-weight: 300;
-    border: 1px solid blue;
 }
 
 header h1 #logoux{
@@ -42,22 +41,41 @@ header h1 #logoux{
 }
 
 header nav{
-    border: 1px solid cyan;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    
 }
 
-h2{
-    width: 300px;
-    height: 100px;
-    border: 1px solid red;
+        /*****  MAIN  *****/
+
+div.colunas-flex{
+    display: flex;
+    justify-content: space-between;
 }
 
-body p{
-    margin: 5px;
-    width: 930px;
+main .coluna1{
+    width: 75%;
+}
+
+main .coluna1 .img-lapis{
+    width: 100%
+}
+main .coluna2{
+    width: 20%;
+}
+
+.coluna1 h2{
+    margin: 10px 2px;
+}
+
+.coluna1 p{
+    margin: 8px 2px;
     text-align: justify;
 }
